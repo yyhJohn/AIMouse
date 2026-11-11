@@ -1,0 +1,60 @@
+{
+  "source": "https://files.mousemux.com/files/setup/mousemux-v3-setup-3.0.19.exe",
+  "installer_sha256": "50c2a5567647c57f17b7e93f8007d3660e12b30b326d3aae46d4719256ef0ed5",
+  "installer_bytes": 76443272,
+  "observation_date": "2026-11-11",
+  "packaging": "Advanced Installer v100 ADVINSTSFX and embedded 7z",
+  "footer_offset": 76431559,
+  "table_offset": 76431281,
+  "records": [
+    {
+      "name": "decoder.dll",
+      "offset": 2216960,
+      "bytes": 130872,
+      "type": 2,
+      "transform": "none"
+    },
+    {
+      "name": "FILES.7z",
+      "offset": 2347832,
+      "bytes": 71372186,
+      "type": 8,
+      "transform": "invert first 512 bytes"
+    },
+    {
+      "name": "mousemux-v3-setup-3.0.19.msi",
+      "offset": 73720018,
+      "bytes": 2710287,
+      "type": 3,
+      "transform": "invert first 512 bytes, 7z container"
+    },
+    {
+      "name": "mousemux-v3-setup-3.0.19.ini",
+      "offset": 76430305,
+      "bytes": 976,
+      "type": 0,
+      "transform": "none"
+    }
+  ],
+  "msi": {
+    "name": "mousemux-v3-setup-3.0.19.msi",
+    "bytes": 3561472,
+    "sha256": "b4cace809d0fda5fb1e2835306df43cb03b149721be71e3b21a8fa6e3c69401f",
+    "signature_status": "Valid",
+    "signer": "CN=The MouseMux Company, O=The MouseMux Company, S=Zuid-Holland, C=NL",
+    "custom_actions": [
+      "service_install",
+      "service_remove",
+      "send_exits"
+    ],
+    "service_install_and_control_queries": "No corresponding MSI tables. Custom actions call loader."
+  },
+  "payload": {
+    "files": 2413,
+    "bytes": 494131080.0,
+    "exe_dll": 45,
+    "drivers": [],
+    "optional_app_manifest": "store\\3.0.19\\depot\\webapp-input-mapper-beta-asar\\app.json",
+    "optional_app_carriers": []
+  }
+}

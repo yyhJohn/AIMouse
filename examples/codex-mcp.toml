@@ -1,0 +1,3 @@
+[mcp_servers.aimouse]
+command = 'C:\Tools\AIMouse\AIMouse.exe'
+args = ["--stdio"]

@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "aimouse": {
+      "type": "stdio",
+      "command": "C:\\Tools\\AIMouse\\AIMouse.exe",
+      "args": ["--stdio"]
+    }
+  }
+}

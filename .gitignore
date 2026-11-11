@@ -1,0 +1,10 @@
+/.deps/
+/build/
+/build-*/
+/dist/
+/.vs/
+/analysis/binaries/
+/analysis/ghidra/
+*.user
+*.pyc
+__pycache__/

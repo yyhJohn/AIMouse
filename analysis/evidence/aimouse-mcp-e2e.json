@@ -1,0 +1,52 @@
+{
+  "test": "AIMouse MCP end to end",
+  "win32_receiver_events": [
+    "mouse_move",
+    "mouse_down",
+    "mouse_up",
+    "mouse_double_click",
+    "mouse_wheel",
+    "key_down",
+    "key_up",
+    "text"
+  ],
+  "other_receiver_input_events": 0,
+  "commands": 250,
+  "received_moves": 250,
+  "latency_ms": {
+    "p50": 1.569,
+    "p95": 2.365,
+    "p99": 2.969
+  },
+  "window_png": {
+    "height": 399,
+    "ok": true,
+    "source": "bound_window",
+    "width": 642
+  },
+  "system_state_unchanged_at_samples": true,
+  "raw_probe_desktop": {
+    "legacy_moves": 1,
+    "raw_mouse_delta": 0,
+    "yaw_change": 0,
+    "pitch_change": 0
+  },
+  "raw_probe_game_mode": "unsupported_backend",
+  "cooperative_camera": {
+    "event": "cooperative_input",
+    "op": 1,
+    "a": 100,
+    "b": -25,
+    "qpc": 4128373022570,
+    "yaw": 15,
+    "pitch": 3.75,
+    "cooperative_buttons": 0,
+    "cooperative_keys_down": 0
+  },
+  "cooperative_drag_moves": 5,
+  "cleanup_on_stop_and_eof": true,
+  "os": "Windows 11 Home x64, build 22631",
+  "configuration": "Release x64",
+  "aimouse_sha256": "14EDD80CF082027B7B3316C57241B31C65532032C2103E95E09E0720418D364C",
+  "probe_sha256": "F6854C159860EBD856E1AAFB5C5819FB0D066E2F29F4CE2C4070DEDC4914ACE6"
+}

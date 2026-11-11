@@ -1,0 +1,552 @@
+{
+  "rea": "6.5.0",
+  "provider": "Ghidra 12.1.4 for native analysis",
+  "scope": "Index of original REA observations cited in the analysis. Procedure parameters and locations reproduce the lookups. See docs/MOUSEMUX_FINDINGS.md for interpreted results.",
+  "records": [
+    {
+      "id": "ev_104f381de2fc127833b80d8ab35bf11f01b8c418d2a50a7bf54c30b297c4cb6c",
+      "artifact": "mousemux-v3-main.exe",
+      "sha256": "74eef230e09c262088a9dfcb3855e671c090933abbdc43d51ee9e5c4d4c04565",
+      "operation": "binary_overview",
+      "parameters": {},
+      "summary": {
+        "image_base": "0x140000000",
+        "procedures": 5653,
+        "strings": 11232
+      }
+    },
+    {
+      "id": "ev_319495d856360990ad01ca1f1002a2720ba0da4da14405ab16c1675b0b50308f",
+      "artifact": "mousemux-v3-main.exe",
+      "sha256": "74eef230e09c262088a9dfcb3855e671c090933abbdc43d51ee9e5c4d4c04565",
+      "operation": "inspect_pe_resources",
+      "parameters": {
+        "path": "store\\3.0.19\\bin64\\mousemux-v3-main.exe",
+        "max_file_bytes": 67108864,
+        "max_entries": 16384
+      },
+      "locations": [
+        {
+          "kind": "artifact-path",
+          "path": "store\\3.0.19\\bin64\\mousemux-v3-main.exe"
+        }
+      ],
+      "summary": {
+        "resources": 111,
+        "directory": {
+          "rva": 3375104,
+          "location": {
+            "offset": 2634240,
+            "bytes": 590144
+          },
+          "data_directory_location": {
+            "offset": 280,
+            "bytes": 8
+          }
+        },
+        "types": [
+          2,
+          3,
+          5,
+          14,
+          16,
+          24
+        ]
+      }
+    },
+    {
+      "id": "ev_d70f9f2e65772c00e3de95a9ef5a509634b81f6507bad123586e09be4a5355a1",
+      "artifact": "mousemux-v3-main.exe",
+      "sha256": "74eef230e09c262088a9dfcb3855e671c090933abbdc43d51ee9e5c4d4c04565",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x14016b540"
+      }
+    },
+    {
+      "id": "ev_2d75acc8f22319369af3723eb60214bc42bba7b877e5e1f54a9a498e88114d30",
+      "artifact": "mousemux-v3-main.exe",
+      "sha256": "74eef230e09c262088a9dfcb3855e671c090933abbdc43d51ee9e5c4d4c04565",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x140127290"
+      }
+    },
+    {
+      "id": "ev_bcc37126aa54b095490ce57adb88d97e6003b245d19ae1ae774ddade23b2620d",
+      "artifact": "mousemux-v3-main.exe",
+      "sha256": "74eef230e09c262088a9dfcb3855e671c090933abbdc43d51ee9e5c4d4c04565",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x140127b40"
+      }
+    },
+    {
+      "id": "ev_39044e27b42c1346667ae7bb56d3578e6441d664f6c05d6090bf900487f6ac1e",
+      "artifact": "mousemux-v3-main.exe",
+      "sha256": "74eef230e09c262088a9dfcb3855e671c090933abbdc43d51ee9e5c4d4c04565",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x140127890"
+      }
+    },
+    {
+      "id": "ev_f6c06d5ee167babd369260ce7fde8eb473f9c3b51e8ef47a92eabff5b012e786",
+      "artifact": "mousemux-v3-main.exe",
+      "sha256": "74eef230e09c262088a9dfcb3855e671c090933abbdc43d51ee9e5c4d4c04565",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x140150a10"
+      }
+    },
+    {
+      "id": "ev_df6caba7e1ad5b972df851f6b6405f5cb06e3782ba2ecac2146dbd39f16c9abc",
+      "artifact": "mousemux-v3-main.exe",
+      "sha256": "74eef230e09c262088a9dfcb3855e671c090933abbdc43d51ee9e5c4d4c04565",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x14016b9c0"
+      }
+    },
+    {
+      "id": "ev_18b869c1d453e4f84f3550349877f7aaf88b6d9eb92edbbb6cadfd3001547a4b",
+      "artifact": "mousemux-v3-main.exe",
+      "sha256": "74eef230e09c262088a9dfcb3855e671c090933abbdc43d51ee9e5c4d4c04565",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x14016bcf0"
+      }
+    },
+    {
+      "id": "ev_076f314efd8d748fff9506d9f807c7337ee5a752bbe6933fdeb66a269d3783c9",
+      "artifact": "mousemux-v3-main.exe",
+      "sha256": "74eef230e09c262088a9dfcb3855e671c090933abbdc43d51ee9e5c4d4c04565",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x140028390"
+      }
+    },
+    {
+      "id": "ev_b5f09196ec332930ab12f76c16cd6875c8a519f03d9fd0fa7f55a18cd6c66c96",
+      "artifact": "mousemux-v3-main.exe",
+      "sha256": "74eef230e09c262088a9dfcb3855e671c090933abbdc43d51ee9e5c4d4c04565",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x140028450"
+      }
+    },
+    {
+      "id": "ev_eb58c04a5bde72907dd60adf893a3fb522eb335af3a7af96649175033b6451e7",
+      "artifact": "mousemux-v3-main.exe",
+      "sha256": "74eef230e09c262088a9dfcb3855e671c090933abbdc43d51ee9e5c4d4c04565",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x140128fe0"
+      }
+    },
+    {
+      "id": "ev_a57b41b9aacca3862da91d98e2af8ec23c0a2f6ac1218f39b33c964a9885b26f",
+      "artifact": "mousemux-v3-main.exe",
+      "sha256": "74eef230e09c262088a9dfcb3855e671c090933abbdc43d51ee9e5c4d4c04565",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x140129160"
+      }
+    },
+    {
+      "id": "ev_8bab341a76ae70b36955483f3f2500f220821d91df69d01383a385b73f1e12b3",
+      "artifact": "mousemux-v3-main.exe",
+      "sha256": "74eef230e09c262088a9dfcb3855e671c090933abbdc43d51ee9e5c4d4c04565",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x140025b70"
+      }
+    },
+    {
+      "id": "ev_0e5113f265f1e015e889a13e6264905bc7e20d1456dc5fd947b61f29df7364ad",
+      "artifact": "mousemux-v3-main.exe",
+      "sha256": "74eef230e09c262088a9dfcb3855e671c090933abbdc43d51ee9e5c4d4c04565",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x140025940"
+      }
+    },
+    {
+      "id": "ev_1439e552e4219871044180f67aed7116da26d82057d83e0e6ca46b41233af3e9",
+      "artifact": "mousemux-v3-main.exe",
+      "sha256": "74eef230e09c262088a9dfcb3855e671c090933abbdc43d51ee9e5c4d4c04565",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x140025850"
+      }
+    },
+    {
+      "id": "ev_c9def4fb7e86f3d5304ecbe11c568a1dd69a8abd186e75acb233ba037914eed3",
+      "artifact": "mousemux-v3-main.exe",
+      "sha256": "74eef230e09c262088a9dfcb3855e671c090933abbdc43d51ee9e5c4d4c04565",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x140105d30"
+      }
+    },
+    {
+      "id": "ev_d549311c4f97e0c1e28bee46fa507977b5c20ef11e9e119953712b15d3bb1953",
+      "artifact": "mousemux-v3-main.exe",
+      "sha256": "74eef230e09c262088a9dfcb3855e671c090933abbdc43d51ee9e5c4d4c04565",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x140021bb0"
+      }
+    },
+    {
+      "id": "ev_55a0ea14f9e1ca8517cd1b91761fdc7ecb5e97fca91652e6e1ed7bedec020050",
+      "artifact": "mousemux-v3-main.exe",
+      "sha256": "74eef230e09c262088a9dfcb3855e671c090933abbdc43d51ee9e5c4d4c04565",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x140025770"
+      }
+    },
+    {
+      "id": "ev_a77b032a7c11a519e7b0958bb961f89e4af000cf1999fad02ebf722f74997967",
+      "artifact": "mousemux-v3-main.exe",
+      "sha256": "74eef230e09c262088a9dfcb3855e671c090933abbdc43d51ee9e5c4d4c04565",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x14001bb00"
+      }
+    },
+    {
+      "id": "ev_86fd3e845176d52d03a98fdc361820c1954a85dac291756a04935115c42f5830",
+      "artifact": "mousemux-v3-main.exe",
+      "sha256": "74eef230e09c262088a9dfcb3855e671c090933abbdc43d51ee9e5c4d4c04565",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x14001bb40"
+      }
+    },
+    {
+      "id": "ev_3171bf8aa2f865e66b741383176e9a8cd5af6202ed0571831d2032dd2419759c",
+      "artifact": "mousemux-v3-main.exe",
+      "sha256": "74eef230e09c262088a9dfcb3855e671c090933abbdc43d51ee9e5c4d4c04565",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x14000f2b0"
+      }
+    },
+    {
+      "id": "ev_472e5e6d93757da80d6be591f6a39367b847ab721a8f3a99e283ba310c6dea1a",
+      "artifact": "mousemux-v3-main.exe",
+      "sha256": "74eef230e09c262088a9dfcb3855e671c090933abbdc43d51ee9e5c4d4c04565",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x14000ed40"
+      }
+    },
+    {
+      "id": "ev_f1643184c8702ee118889db3284348706515fe9cb22089256b1e7c2d30f90bc2",
+      "artifact": "mousemux-v3-main.exe",
+      "sha256": "74eef230e09c262088a9dfcb3855e671c090933abbdc43d51ee9e5c4d4c04565",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x1400b56d0"
+      }
+    },
+    {
+      "id": "ev_1337fdbfecd38ea779fd25f623f2861d098aca69f6800f58f9b808541c788f54",
+      "artifact": "mousemux-v3-main.exe",
+      "sha256": "74eef230e09c262088a9dfcb3855e671c090933abbdc43d51ee9e5c4d4c04565",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x1400320e0"
+      }
+    },
+    {
+      "id": "ev_4cc5336792bfb5d43ab0a29f4bee5dd4adc85478b5ceb899b12dcf5ac844cd62",
+      "artifact": "mousemux-v3-main.exe",
+      "sha256": "74eef230e09c262088a9dfcb3855e671c090933abbdc43d51ee9e5c4d4c04565",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x14000a500"
+      }
+    },
+    {
+      "id": "ev_ac412ef44fc9dbfeb10b2ee5bcca9ac5630dd83b2edd78799c3666d5c725b35d",
+      "artifact": "mousemux-v3-main.exe",
+      "sha256": "74eef230e09c262088a9dfcb3855e671c090933abbdc43d51ee9e5c4d4c04565",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x14000a5f0"
+      }
+    },
+    {
+      "id": "ev_9f7efb7ea7f4f5cdad3a2828133756986b93409d4d9ac943ac51d8219de3c484",
+      "artifact": "mousemux-v3-main.exe",
+      "sha256": "74eef230e09c262088a9dfcb3855e671c090933abbdc43d51ee9e5c4d4c04565",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x140021b50"
+      }
+    },
+    {
+      "id": "ev_14f08576b55871e04112b5b4265e59134f85d7ffb44814dd0e6e869207297226",
+      "artifact": "mousemux-v3-main.exe",
+      "sha256": "74eef230e09c262088a9dfcb3855e671c090933abbdc43d51ee9e5c4d4c04565",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x140025e20"
+      }
+    },
+    {
+      "id": "ev_0d2baed7e45bb1dd29bca0643cddabc35d6d4f45c5eb7daeee4e2d05e333cef8",
+      "artifact": "mousemux-v3-main.exe",
+      "sha256": "74eef230e09c262088a9dfcb3855e671c090933abbdc43d51ee9e5c4d4c04565",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x140030dd0"
+      }
+    },
+    {
+      "id": "ev_fdd28631490e20a114ef9d015a74f5643403fddef3773df95324bfed5132261b",
+      "artifact": "mousemux-v3-main.exe",
+      "sha256": "74eef230e09c262088a9dfcb3855e671c090933abbdc43d51ee9e5c4d4c04565",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x140008550"
+      }
+    },
+    {
+      "id": "ev_2e10a18d896f96e0f4dd21957424dd064bd78bb5cea6e79180fc63b6e7c36ce1",
+      "artifact": "mousemux-v3-main.exe",
+      "sha256": "74eef230e09c262088a9dfcb3855e671c090933abbdc43d51ee9e5c4d4c04565",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x14000ec10"
+      }
+    },
+    {
+      "id": "ev_f2b21e7ef20c7e795468b945c9a2dd010ae5f86ee45710cf88a0bf0826c439f5",
+      "artifact": "mousemux-v3-main.exe",
+      "sha256": "74eef230e09c262088a9dfcb3855e671c090933abbdc43d51ee9e5c4d4c04565",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x14000f930"
+      }
+    },
+    {
+      "id": "ev_c41775dad7ea272a3f6caf974d2aaf9216c1660f47bc7a44a1d9557abae9a900",
+      "artifact": "mousemux-v3-main.exe",
+      "sha256": "74eef230e09c262088a9dfcb3855e671c090933abbdc43d51ee9e5c4d4c04565",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x140062a00"
+      }
+    },
+    {
+      "id": "ev_2284494327e7671d871eb5a2a9c74d7794cf2388bacf74b9124cc407b9885f6b",
+      "artifact": "mousemux-v3-main.exe",
+      "sha256": "74eef230e09c262088a9dfcb3855e671c090933abbdc43d51ee9e5c4d4c04565",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x140029570"
+      }
+    },
+    {
+      "id": "ev_7b118b2495c68808facf798dc0c1177ddc88e8a85356e1be5a6ab8995fe91b42",
+      "artifact": "mousemux-v3-main.exe",
+      "sha256": "74eef230e09c262088a9dfcb3855e671c090933abbdc43d51ee9e5c4d4c04565",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x140044cd0"
+      }
+    },
+    {
+      "id": "ev_c53697d0c49c136d10741383fdc2f52e85194fb15cc385ad1b27bf79f8a9a4c0",
+      "artifact": "mousemux-v3-main.exe",
+      "sha256": "74eef230e09c262088a9dfcb3855e671c090933abbdc43d51ee9e5c4d4c04565",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x140024360"
+      }
+    },
+    {
+      "id": "ev_f3a3fbccfa78327886f1047bee8f8d4dd1a56cb47038986ab9b734abd0daf3e6",
+      "artifact": "mousemux-v3-main.exe",
+      "sha256": "74eef230e09c262088a9dfcb3855e671c090933abbdc43d51ee9e5c4d4c04565",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x140152410"
+      }
+    },
+    {
+      "id": "ev_7cb1fad20adc03c2f7ee66c5403196937044d5f075c8ccdf10f60103695e6525",
+      "artifact": "mousemux-v3-main.exe",
+      "sha256": "74eef230e09c262088a9dfcb3855e671c090933abbdc43d51ee9e5c4d4c04565",
+      "operation": "search_strings",
+      "parameters": {
+        "pattern": "(?i)winject.{0,30}\\.c$|virtual.{0,30}\\.c$|keyboard.{0,30}\\.c$|winhooks|WINJECT_TYPE_|SetWindowsHookEx|NtUserInject|WH_MOUSE_LL|WH_KEYBOARD_LL|VHF|ViGEm|directinput",
+        "mode": "regex",
+        "case_sensitive": false
+      }
+    },
+    {
+      "id": "ev_952f3410206e498eb084abc4b61cadc58c7adef6cfb5dadf264d616f3d4194a1",
+      "artifact": "mousemux-v3-daemon.exe",
+      "sha256": "cf3171fa13102740c91016aac2992911a83627e0ef10a3efeb55b30b4d640a9d",
+      "operation": "binary_overview",
+      "parameters": {},
+      "summary": {
+        "image_base": "0x140000000",
+        "procedures": 1799,
+        "strings": 2881
+      }
+    },
+    {
+      "id": "ev_301f1ba03bb558e7ae8964dd55df7d7559a0e33540806e57dc58f6a628e53813",
+      "artifact": "mousemux-v3-daemon.exe",
+      "sha256": "cf3171fa13102740c91016aac2992911a83627e0ef10a3efeb55b30b4d640a9d",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x140006dc0"
+      }
+    },
+    {
+      "id": "ev_1aeacde8bb1508335679ffc5b24af31671faa45f39220d1dde0fe5f7a0a4e3c5",
+      "artifact": "mousemux-v3-daemon.exe",
+      "sha256": "cf3171fa13102740c91016aac2992911a83627e0ef10a3efeb55b30b4d640a9d",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x14000ad60"
+      }
+    },
+    {
+      "id": "ev_6fed1bd4a44021b931e5946da1790914452112e03447ed184ba431424021339c",
+      "artifact": "mousemux-v3-daemon.exe",
+      "sha256": "cf3171fa13102740c91016aac2992911a83627e0ef10a3efeb55b30b4d640a9d",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x1400275e0"
+      }
+    },
+    {
+      "id": "ev_67ba8f8cf627e65e929f942cf3b813b43ec7581d8a8c2ac70d1ffc0e517bec21",
+      "artifact": "mousemux-v3-daemon.exe",
+      "sha256": "cf3171fa13102740c91016aac2992911a83627e0ef10a3efeb55b30b4d640a9d",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x140027790"
+      }
+    },
+    {
+      "id": "ev_c392ea846ac4a000fb1691765a8026599f846402892acc1a9bfeffde62b88a88",
+      "artifact": "mousemux-v3-service.exe",
+      "sha256": "5e5c10efdea10f9a8fcf7833e85fed8e92a38bbe7fcdd43f6bb4f157d5dd6225",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x1400019b0"
+      }
+    },
+    {
+      "id": "ev_dd0a76f413acd5be91fea84b3c78d23cbcdbf1ea269c8a7d4dbe7f05861c3f43",
+      "artifact": "mousemux-v3-service.exe",
+      "sha256": "5e5c10efdea10f9a8fcf7833e85fed8e92a38bbe7fcdd43f6bb4f157d5dd6225",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x140001aa0"
+      }
+    },
+    {
+      "id": "ev_8b05e074e39d6a5812c596d59db02bebd2f876b989b10d6cc0b29af7e423cec9",
+      "artifact": "mousemux-v3-service.exe",
+      "sha256": "5e5c10efdea10f9a8fcf7833e85fed8e92a38bbe7fcdd43f6bb4f157d5dd6225",
+      "operation": "read_bytes",
+      "parameters": {
+        "address": "0x140054380",
+        "length": 32
+      }
+    },
+    {
+      "id": "ev_2a9554da60b4f8e89fd8e2820215e3453b340fe489025e962f8ad5cdda379e17",
+      "artifact": "mousemux-v3-service.exe",
+      "sha256": "5e5c10efdea10f9a8fcf7833e85fed8e92a38bbe7fcdd43f6bb4f157d5dd6225",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x1400031b0"
+      }
+    },
+    {
+      "id": "ev_86ef552577e72d789955f89584e3391a8118003e4aef386ffa59cd2eaaab32be",
+      "artifact": "mousemux-v3-service.exe",
+      "sha256": "5e5c10efdea10f9a8fcf7833e85fed8e92a38bbe7fcdd43f6bb4f157d5dd6225",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x140009aa0"
+      }
+    },
+    {
+      "id": "ev_9a83bf653d8063391871a69c9a36b2d1f5748b587a4e8621e4bdf2a4c8743eb8",
+      "artifact": "mousemux-v3-service.exe",
+      "sha256": "5e5c10efdea10f9a8fcf7833e85fed8e92a38bbe7fcdd43f6bb4f157d5dd6225",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x140019b00"
+      }
+    },
+    {
+      "id": "ev_cf002a3c8f340e1a2e20529f438fdc39c6041b05cc2d52db076b6f1355268d9c",
+      "artifact": "mousemux-v3-service.exe",
+      "sha256": "5e5c10efdea10f9a8fcf7833e85fed8e92a38bbe7fcdd43f6bb4f157d5dd6225",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x140009ac0"
+      }
+    },
+    {
+      "id": "ev_bbb218bf56dee49830a368201e691c7dfd8560d34cc2da44c43884c364c4cf2f",
+      "artifact": "mousemux-v3-winhooks64.dll",
+      "sha256": "d3e6d1668dc4e1a3aa44d2e62d92a999bf4777f14a23a15d3fa95b39665622c2",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x180001700"
+      }
+    },
+    {
+      "id": "ev_8f3d83b27f54ec8eadcc73fd47719bd7a047381a2fb22846cb174c3c9f64c828",
+      "artifact": "mousemux-v3-winhooks64.dll",
+      "sha256": "d3e6d1668dc4e1a3aa44d2e62d92a999bf4777f14a23a15d3fa95b39665622c2",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x180001840"
+      }
+    },
+    {
+      "id": "ev_c3b2398cdccf1b81e6687b44ee319e5e5cb243de8f6a87822741dcc6c75d7782",
+      "artifact": "mousemux-v3-winhooks64.dll",
+      "sha256": "d3e6d1668dc4e1a3aa44d2e62d92a999bf4777f14a23a15d3fa95b39665622c2",
+      "operation": "read_bytes",
+      "parameters": {
+        "address": "0x18000d010",
+        "length": 224
+      }
+    },
+    {
+      "id": "ev_dfa3336ac43f6ac1af86985f8e3acd313f57b59c412477aea191a54dddc3a391",
+      "artifact": "mousemux-v3-winhooks64.dll",
+      "sha256": "d3e6d1668dc4e1a3aa44d2e62d92a999bf4777f14a23a15d3fa95b39665622c2",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x180001e50"
+      }
+    },
+    {
+      "id": "ev_dc87e9e8b7b713a63c196132a0a19737612b1ab9ace7b788d7e7356e4119ff8b",
+      "artifact": "mousemux-v3-winhooks64.dll",
+      "sha256": "d3e6d1668dc4e1a3aa44d2e62d92a999bf4777f14a23a15d3fa95b39665622c2",
+      "operation": "read_bytes",
+      "parameters": {
+        "address": "0x180001d80",
+        "length": 128
+      }
+    }
+  ]
+}
